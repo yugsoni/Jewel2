@@ -1,0 +1,69 @@
+{"menu": [
+    {"url":"/dashboard-analytics", "name":"Dashboard", "slug":"dashboard" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-home"
+    },
+    {"url":"/profile", "name":"Profile", "slug":"profiel" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-user"
+    },
+    {"url":"/edit_profile", "name":"Edit Profile", "slug":"profiel" , "badgeClass": "badge badge-warning badge-pill float-right mr-2", "icon":"feather icon-settings"
+    },
+    {"url":"", "name":"Business Master", "icon":"feather icon-briefcase",
+            "submenu": [
+                {"url":"/view-bn", "name":"View All", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"City Master", "icon":"feather icon-clock",
+            "submenu": [
+                {"url":"/add-c", "name":"Add City", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-c", "name":"View Cities", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"State Master", "icon":"feather icon-truck",
+            "submenu": [
+                {"url":"/add-s", "name":"Add State", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-s", "name":"View States", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Country Master", "icon":"feather icon-send",
+            "submenu": [
+                {"url":"/add-co", "name":"Add Country", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-co", "name":"View Country", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Business Type Master", "icon":"feather icon-code",
+            "submenu": [
+                {"url":"/add-bt", "name":"Add Business Type", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-bt", "name":"View Business Type", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Speciality Master", "icon":"feather icon-tag",
+            "submenu": [
+                {"url":"/add-sp", "name":"Add Speciality", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-sp", "name":"View Speciality", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Keyword Master", "icon":"feather icon-bookmark",
+            "submenu": [
+                {"url":"/add-k", "name":"Add Keyword", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-k", "name":"View Keyword", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Category Master", "icon":"feather icon-search",
+            "submenu": [
+                {"url":"/add-ca", "name":"Add Category", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-ca", "name":"View Category", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Sub-Category Master", "icon":"feather icon-bookmark",
+            "submenu": [
+                {"url":"/add-sc", "name":"Add Sub-Category", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-sc", "name":"View Sub-Category", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    },
+    {"url":"", "name":"Item Master", "icon":"feather icon-shopping-cart",
+            "submenu": [
+                {"url":"/add-im", "name":"Add Item", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"},
+                {"url":"/view-im", "name":"View Items", "icon":"feather icon-circle", "i18n":"nav.app_ecommerce_shop"}
+            ]
+    }
+
+]}
+
